@@ -1,0 +1,59 @@
+.main-login {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background-color: #18181b;
+}
+
+.form-login {
+  border: 1px solid #52525b;
+  border-radius: 1rem;
+  background-color: #27272a;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  position: relative;
+  width: 25rem;
+}
+
+.wallet-wrapper {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallet-wrapper img {
+  height: 100%;
+}
+
+.inputs-form {
+  align-items: center;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  position: absolute;
+  width: 100%;
+}
+
+.inputs-form input , button {
+  height: 2rem;
+  width: 90%;
+}
+
+.inputs-form button {
+  background-color: #fa2828;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #fa28287a;
+  color: white;
+  cursor: auto;
+}

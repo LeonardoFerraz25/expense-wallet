@@ -1,0 +1,37 @@
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.wrapper-icon-wallet {
+  height: 100%;
+}
+
+.wrapper-icon-wallet img {
+  height: 100%;
+}
+
+.fiel {
+  display: flex;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  width: 20rem;
+}
+
+.total-field {
+  margin-left: 1rem;
+  margin-right: .3rem;
+}
+
+.email-field {
+  color: #fa2828;
+  margin-left: 1rem;
+}

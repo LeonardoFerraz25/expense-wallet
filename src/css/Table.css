@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #18181b;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  color: #18181b;
+  background-color: #ca1f1fd0;
+  height: 2rem;
+}
+
+td {
+  border-color: #818181;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: #fa2828;
+  cursor: pointer;
+  height: 2rem;
+  margin-left: 1rem;
+  width: 2rem;
+}
+
+.edit-btn {
+  background-color: transparent;
+  border: none;
+  color: green;
+  cursor: pointer;
+  height: 2rem;
+  width: 2.5rem;
+}

@@ -1,0 +1,37 @@
+.edit-form {
+  align-items: center;
+  background-color: #27272a;
+  border: 1px solid green;
+  display: flex;
+  height: 5.5rem;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+.edit-form  label {
+  color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 30rem;
+}
+
+.method {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-button {
+  background-color: #27272a;
+  border: 1px solid green;
+  border-radius: 0.25rem;
+  color: green;
+  cursor: pointer;
+  width: 10rem;
+}

@@ -1,0 +1,38 @@
+.add-expense {
+  align-items: center;
+  background-color: #27272a;
+  display: flex;
+  height: 5.5rem;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+.add-expense label {
+  display: flex;
+  flex-direction: column;
+}
+
+.subimit-expense {
+  width: 10rem;
+}
+
+.select {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 30rem;
+}
+
+.method {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.subimit-expense {
+  background-color: #27272a;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  color: #fa2828;
+  cursor: pointer;
+}
